@@ -1,5 +1,7 @@
 # Memory-Management-Simulator
 
+For this project, I implemented a simulation of an operating system’s memory manager. The simulation will read files representing the process images of various processes, then replay a set of virtual address references to those processes using one of two different replacement strategies. The output will be various statistics, including the number of memory accesses, page faults, and free frames remaining in the system.
+
 /inputs: This contains example inputs for the simulation like the processes, and the simulation input.
 
 src/flag_parser/flag_parser.h: This contains the FlagOptions struct that contains information about the arguments the user has passed.
